@@ -1,0 +1,29 @@
+.media-container {
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .custom-resizable-box {
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+  }
+  
+  .react-resizable-handle {
+    background-color: yellow;
+  }
+  
+  button {
+    border: none;
+    padding: 5px 8px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  button:hover {
+    background-color: gray;
+    color: black;
+  }

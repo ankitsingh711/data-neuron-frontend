@@ -1,0 +1,16 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.layout-container-inner {
+  display: flex;
+}
+
+@media screen and (max-width: 1366px) {
+  .layout-container-inner {
+    flex-direction: column;
+  }
+}
